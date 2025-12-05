@@ -1,3 +1,4 @@
+#!/bin/bash
 # Function to check if a package is installed
 is_installed() {
 	dpkg -l "$1" | grep -qw '^ii' &> /dev/null && return 0 || return 1
