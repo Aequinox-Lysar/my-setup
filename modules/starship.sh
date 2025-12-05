@@ -4,7 +4,7 @@ echo -e "Starship wird installiert......\n"
 curl -sS https://starship.rs/install.sh | sh
 echo -e ".bashrc bekommt das Startkommando hinzugefügt....\n"
 # Hier wird Straship im Terminial aktiviert.
-cat <<EOF >>~/.bashrc
+cat <<'EOF' >>~/.bashrc
 # Starship starter
 eval "$(starship init bash)"
 EOF
