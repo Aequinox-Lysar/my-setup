@@ -10,7 +10,7 @@ eval "$(starship init bash)"
 EOF
 # Hier kommt die Konfiguration
 echo -e "Deine Configdatei wird angelegt.....\n"
-cat <<EOF > ~/.config/starship.toml
+cat <<'EOF' > ~/.config/starship.toml
 format = """
 [ ](white)\
 [  ](bg:white fg:#0087AF)\
