@@ -96,7 +96,7 @@ format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#1d2230"
-format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
+format = '[[   $time ](fg:#a0a9cb bg:#1d2230)]($style)'
 EOF
 # Abschluss
 echo -e "Starship wurde erfolgreich installiert.\n"
